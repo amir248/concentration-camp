@@ -13,7 +13,7 @@
       main{
         display:flex;
         justify-content:center;
-        align-items:cneter;
+        align-items:flex-start;
         max-width:100%;
 
       }
@@ -81,7 +81,7 @@ function Rus(){
     console.log(num);
     document.querySelectorAll('#eng')[num].style.cssText=`display:none;`
     document.querySelectorAll('#rus')[num].style.cssText=`display:block;`
-    document.querySelector('body > main > article > fieldset > label').innerHTML="Eng";
+    document.querySelector('body > main > article > fieldset > label').innerHTML="switch to Eng";
   }
 }
 function Eng(){
@@ -115,6 +115,7 @@ window.addEventListener("DOMContentLoaded",()=>{
       });
 
       </script>
+      <script src="https://amir248.github.io/moscow-will-lose-the-war/maxWidth.js"></script>
     </main>
   </body>
 </html>
